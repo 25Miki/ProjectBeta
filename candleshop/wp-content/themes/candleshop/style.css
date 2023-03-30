@@ -1,0 +1,45 @@
+/*
+Theme Name: Candleshop
+Description: Tema para el proyecto beta.
+Author: Miki
+Version: 1.0
+*/
+
+.rebajas {
+    color: red;
+}
+
+.logo {
+    padding-top: 15px;
+}
+
+.imagen-vela {
+    background-size: contain; 
+}
+
+.header {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 0;
+}
+
+.iconos {
+    gap: 3em !important ;
+}
+
+.submenu {
+    font-size: var(--wp--preset--font-size--small) !important;
+}
+
+a:where(:not(.wp-element-button)) {
+    color: black !important;
+    text-decoration: underline;
+}
+
+
+@media only screen and (max-width: 800px)  {
+
+    .iconos {
+        display: none !important;
+    }
+}
